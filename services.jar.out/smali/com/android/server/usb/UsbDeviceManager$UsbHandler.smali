@@ -690,7 +690,7 @@
     if-eqz v0, :cond_8
 
     .line 999
-    invoke-direct {p0}, Lcom/android/server/usb/UsbDeviceManager$UsbHandler;->publishAdbCustomTile()V
+    #invoke-direct {p0}, Lcom/android/server/usb/UsbDeviceManager$UsbHandler;->publishAdbCustomTile()V
 
     .line 988
     :goto_5
@@ -761,7 +761,7 @@
     .line 1001
     .end local v0    # "enabled":Z
     :cond_8
-    invoke-direct {p0}, Lcom/android/server/usb/UsbDeviceManager$UsbHandler;->unpublishAdbCustomTile()V
+    #invoke-direct {p0}, Lcom/android/server/usb/UsbDeviceManager$UsbHandler;->unpublishAdbCustomTile()V
 
     goto :goto_5
 .end method
@@ -1680,7 +1680,7 @@
     if-lez v7, :cond_d
 
     .line 889
-    invoke-direct {p0}, Lcom/android/server/usb/UsbDeviceManager$UsbHandler;->publishAdbCustomTile()V
+    #invoke-direct {p0}, Lcom/android/server/usb/UsbDeviceManager$UsbHandler;->publishAdbCustomTile()V
 
     .line 829
     :goto_4
@@ -1771,7 +1771,7 @@
 
     .line 891
     :cond_d
-    invoke-direct {p0}, Lcom/android/server/usb/UsbDeviceManager$UsbHandler;->unpublishAdbCustomTile()V
+    #invoke-direct {p0}, Lcom/android/server/usb/UsbDeviceManager$UsbHandler;->unpublishAdbCustomTile()V
 
     goto :goto_4
 .end method
