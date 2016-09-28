@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<!--
+    These are the default set of preferred applications for various standard
+    intent filters.
+
+    To generate new entries, set whatever app you want to be the default as
+    normal through the UI, and then use "adb shell dumpsys package preferred-xml"
+    to get the XML structure for the current preferred apps.  You will probably
+    want to clean up the output some, such as adding the BROWSABLE category.  See
+    the other entries here for guides.
+ -->
+<preferred-activities>
+</preferred-activities>

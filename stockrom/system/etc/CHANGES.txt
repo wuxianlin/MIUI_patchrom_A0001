@@ -1,0 +1,538 @@
+********************************************************************************
+JIRAs:
+CD-688
+CD-689
+CYNGNOS-2998
+CYNGNOS-3062
+CYNGNOS-3117
+CYNGNOS-3118
+CYNGNOS-3127
+CYNGNOS-3131
+CYNGNOS-3135
+CYNGNOS-3145
+CYNGNOS-3177
+CYNGNOS-3181
+CYNGNOS-3184
+CYNGNOS-3192
+CYNGNOS-3203
+CYNGNOS-3212
+CYNGNOS-3219
+CYNGNOS-3227
+CYNGNOS-3233
+CYNGNOS-3238
+CYNGNOS-3239
+CYNGNOS-3244
+CYNGNOS-3245
+CYNGNOS-3247
+CYNGNOS-3248
+CYNGNOS-3252
+FEIJ-1072
+FEIJ-1145
+FEIJ-1410
+FEIJ-1413
+FEIJ-1431
+FEIJ-1434
+FEIJ-1449
+FEIJ-1476
+FEIJ-1483
+FEIJ-1501
+FEIJ-1504
+FEIJ-1505
+FEIJ-1515
+FEIJ-1566
+FEIJ-1573
+FEIJ-1575
+FEIJ-1578
+FEIJ-1581
+FEIJ-1589
+FEIJ-1610
+HAM-1326
+HAM-1339
+HAM-1340
+HAM-1353
+HAM-1354
+HAM-1377
+HAM-1384
+HAM-1392
+HAM-1397
+KIPPER-718
+OPO-745
+OPO-803
+OPO-807
+OPO-809
+OPO-811
+RM-231
+RM-232
+********************************************************************************
+All revisions:
+Project: CyanogenMod/android
+CYNGNOS-3177 - 6fd2dd9 - default.xml: cm: Update to 6.0.1_r61
+
+Project: CyanogenMod/android_build
+CYNGNOS-3177 - 1a9c92e - Update security patch string to 2016-08-05
+CYNGNOS-3177 - 47d9aae - disable unpriv perf by default in user{,debug} builds
+
+Project: CyanogenMod/android_device_oneplus_bacon
+OPO-809 - 09b777a - bacon: add first_api_level for CTS
+
+Project: CyanogenMod/android_device_oppo_common
+OPO-803 - a1ff1bb - configpanel: fix npe when sysfs node cannot be read
+
+Project: CyanogenMod/android_device_qcom_common
+NO TICKET - 17884ec - power: 8937: All in with mpctl v3
+NO TICKET - 6433645 - power: 8937: Split from msm8952
+NO TICKET - 09217ea - power: msm8937 also uses mpctl3
+NO TICKET - ed55a55 - perf: Wrap v3 opcodes with ifdefs
+NO TICKET - 68e169c - power: msm8996: Support boost and perf profile hints
+
+Project: CyanogenMod/android_external_libavc
+CYNGNOS-3177 - eb25087 - Decoder: Initialize first_pb_nal_in_pic for error slices
+CYNGNOS-3177 - 6a2b932 - Decoder: Do not conceal slices with invalid SPS/PPS
+CYNGNOS-3177 - 3121c1f - Decoder: Fix slice number increment for error clips
+
+Project: CyanogenMod/android_external_sepolicy
+CYNGNOS-3177 - 6d144f0 - expose control over unpriv perf access to shell
+
+Project: CyanogenMod/android_frameworks_av
+CYNGNOS-3177 - c56fc66 - Check effect command reply size in AudioFlinger
+CYNGNOS-3177 - c4dbd67 - DO NOT MERGE omx: check buffer port before using
+CYNGNOS-3177 - cdd2b99 - Fix potential overflow
+CYNGNOS-3177 - bcd9f35 - SoftHEVC: Exit gracefully in case of decoder errors
+CYNGNOS-3177 - 67c8d86 - Don't use sp<>&
+CYNGNOS-3177 - 21d55c2 - SoftAAC2: fix crash on all-zero adts buffer
+CYNGNOS-3177 - d54fbe5 - DO NOT MERGE: Camera: Adjust pointers to ANW buffers to avoid infoleak
+NO TICKET - 75ca339 - frameworks/av: Fix video recording breaks
+NO TICKET - 2fa3259 - video: Use boot clock for recording start time
+CYNGNOS-3219 - d1da0d8 - audiopolicy: Constrain session events to music streams
+
+Project: CyanogenMod/android_frameworks_base
+RM-231 - c10240b - Automatic translation import
+RM-231 - 5e775c9 - Automatic translation import
+CYNGNOS-3247 - 587ef10 - bootanimation: add multithreaded decode
+CYNGNOS-3244 - 2fc3c3b - fw: enforce android.permission.PREVENT_SYSTEM_KEYS in system server
+CYNGNOS-3238 HAM-1384 - 45ace66 - Revert "Adding back pdf_printer_media_sizes for values-zh-rCN to accomodate mediasize_default"
+CYNGNOS-3233 - 00c0ff1 - framework: don't allow assist activities while not provisioned
+RM-231 - 3c3727b - Automatic translation import
+CYNGNOS-3177 - 128c496 - Add pm operation to set user restrictions.
+CYNGNOS-3177 - a480ed7 - Reduce shell power over user management.
+CYNGNOS-3177 - 66e1693 - Don't trust callers to supply app info to bindBackupAgent()
+CYNGNOS-3177 - 629670b - DO NOT MERGE Disable app pinning when emergency call button pressed
+FEIJ-1515 FEIJ-1573 FEIJ-1575 FEIJ-1589 - 859b6ef - Fix random crash in libhwui
+RM-231 - 8a13735 - Automatic translation import
+FEIJ-1501 - eaf4b80 - Keyguard: Don't circular reveal a non-visible view
+FEIJ-1610 - a4b4b6c - Factory reset: Wipe media by default
+RM-231 - ca7c898 - Automatic translation import
+RM-231 - 2435703 - Automatic translation import
+CYNGNOS-3135 - c9fb4f9 - SystemUI: don't automatically disable compass tile
+RM-231 - 5ff7e79 - Automatic translation import
+RM-231 - 8aaf87c - Automatic translation import
+RM-231 - 293684b - Automatic translation import
+RM-231 - c22b9e4 - Automatic translation import
+FEIJ-1449 - dfb2db3 - pm: Avoid filtering out protected components in implicit queries.
+CYNGNOS-3192 - 47e0081 - keyguard: Set FLAG_SHOW_WALLPAPER when shwowing media
+RM-231 - 4d5a9e4 - Automatic translation import
+
+Project: CyanogenMod/android_frameworks_native
+CYNGNOS-3177 - 9d364c9 - Add FrameStats default constructor
+
+Project: CyanogenMod/android_frameworks_opt_net_wifi
+CYNGNOS-3177 - d8d22e1 - Deal correctly with short strings
+
+Project: CyanogenMod/android_frameworks_opt_telephony
+CYNGNOS-3239 - 1af6329 - DCT: Tear down MMS+default connections raised by config_enable_mms_with_mobile_data_off
+CYNGNOS-3177 - d8ab111 - backport security fix: avoid set NITZ time to 2038
+
+Project: CyanogenMod/android_hardware_qcom_display
+NO TICKET - 2d5a0c4 - Don't build lights module if vendor supplies it
+
+Project: CyanogenMod/android_hardware_qcom_fm
+RM-231 - 429e41e - Automatic translation import
+RM-231 - 8aee836 - Automatic translation import
+RM-231 - 6f1fd97 - Automatic translation import
+RM-231 - a6bc4a8 - Automatic translation import
+
+Project: CyanogenMod/android_hardware_qcom_media
+CYNGNOS-3177 - 522d7f6 - DO NOT MERGE mm-video-v4l2: venc: add checks before accessing heap pointers
+CYNGNOS-3177 - d63a07c - DO NOT MERGE Fix wrong nAllocLen
+CYNGNOS-3177 - 8f03648 - DO NOT MERGE mm-video-v4l2: venc: add checks before
+CYNGNOS-3177 - d8dbf5d - DO NOT MERGE Fix wrong nAllocLen
+NO TICKET - 939d86c - The libOmxSw encoders require prop headers :(
+CYNGNOS-3177 - 2f7a0b3 - DO NOT MERGE mm-video-v4l2: venc: add checks before
+CYNGNOS-3177 - a111b86 - DO NOT MERGE Fix wrong nAllocLen
+CYNGNOS-3177 - d0ff9ac - DO NOT MERGE mm-video-v4l2: venc: add checks before
+CYNGNOS-3177 - b71b562 - DO NOT MERGE Fix wrong nAllocLen
+CYNGNOS-3177 - febd2e1 - DO NOT MERGE mm-video-v4l2: venc: add checks before
+CYNGNOS-3177 - a7379ef - DO NOT MERGE Fix wrong nAllocLen
+CYNGNOS-3177 - 704a0be - DO NOT MERGE mm-video-v4l2: venc: add checks before
+CYNGNOS-3177 - f132ce3 - DO NOT MERGE Fix wrong nAllocLen
+CYNGNOS-3131 - 5264ec7 - venc: Disable building vqzip into the encoder for OSS
+
+Project: CyanogenMod/android_kernel_oneplus_msm8974
+OPO-811 - a1c2a2e - ashmem: Validate ashmem memory with fops pointer
+HAM-1392 - 8fcbb80 - video: mdss: require MDP_PP_OPS_ENABLE bit when combine user & raw PCC
+OPO-807 - cf13ef4 - msm: kgsl: Defer adding the mem entry to a process
+OPO-807 - 822571c - cyanogenmod_bacon_defconfig: enable SECURITY_PERF_EVENTS_RESTRICT
+OPO-807 - 981ceb1 - FROMLIST: security,perf: Allow further restriction of perf_event_open
+OPO-807 - 9747b15 - BACKPORT: perf tools: Document the perf sysctls
+
+Project: CyanogenMod/android_packages_apps_AudioFX
+RM-231 - 150312f - Automatic translation import
+
+Project: CyanogenMod/android_packages_apps_Browser
+RM-231 - 304caf2 - Automatic translation import
+
+Project: CyanogenMod/android_packages_apps_CMBugreport
+RM-231 - 56149f6 - Automatic translation import
+RM-231 - 45ac065 - Automatic translation import
+RM-231 - e5100da - Automatic translation import
+RM-231 - 803a8cd - Automatic translation import
+
+Project: CyanogenMod/android_packages_apps_CMFileManager
+RM-231 - 3b2d433 - Automatic translation import
+RM-231 - b1d7c67 - Automatic translation import
+RM-231 - 6d943ec - Automatic translation import
+HAM-1377 - 22f5415 - Add ape file mimetype
+RM-231 - ea0c61c - Automatic translation import
+RM-231 - fbd57a7 - Automatic translation import
+RM-231 - b58b004 - Automatic translation import
+RM-231 - 7585888 - Automatic translation import
+RM-231 - 4f04916 - Automatic translation import
+
+Project: CyanogenMod/android_packages_apps_CMUpdater
+RM-231 - bbc4766 - Automatic translation import
+RM-231 - 6bab27b - Automatic translation import
+RM-231 - 38a8a3a - Automatic translation import
+RM-231 - 7d231a0 - Automatic translation import
+RM-231 - 3162d5b - Automatic translation import
+
+Project: CyanogenMod/android_packages_apps_Calculator
+RM-231 - bc7db8b - Automatic translation import
+RM-231 - 28c9fe3 - Automatic translation import
+CYNGNOS-3127 - 413d35d - Verify if widget can draw over apps
+
+Project: CyanogenMod/android_packages_apps_Calendar
+RM-231 - d9a28d1 - Automatic translation import
+
+Project: CyanogenMod/android_packages_apps_Camera2
+RM-231 - 0f6de6f - Automatic translation import
+RM-231 - a4cb278 - Automatic translation import
+
+Project: CyanogenMod/android_packages_apps_CellBroadcastReceiver
+RM-231 - 69fa620 - Automatic translation import
+
+Project: CyanogenMod/android_packages_apps_Contacts
+RM-231 - 23fbbae - Automatic translation import
+CD-688 - da3bf2e - Send count stats with DIRECTORY_SEARCH events
+RM-231 - a80b91c - Automatic translation import
+RM-231 - ef45b7e - Automatic translation import
+RM-231 - c889b45 - Automatic translation import
+CYNGNOS-3117 - cc7c19d - Contacts : fix quick contacts card invite entry
+
+Project: CyanogenMod/android_packages_apps_ContactsCommon
+RM-231 - 01b861f - Automatic translation import
+RM-231 - 01fb61d - Automatic translation import
+RM-231 - 954a414 - Automatic translation import
+RM-231 - d8b545c - Automatic translation import
+
+Project: CyanogenMod/android_packages_apps_DeskClock
+RM-231 - 822e4df - Automatic translation import
+RM-231 - 18162d4 - Automatic translation import
+RM-231 - cc5a651 - Automatic translation import
+RM-231 - fe0f562 - Automatic translation import
+RM-231 - 4818af3 - Automatic translation import
+RM-231 - ddad727 - Automatic translation import
+RM-231 - 02562d5 - Automatic translation import
+RM-231 - f7205be - Automatic translation import
+RM-231 - 977b2f7 - Automatic translation import
+FEIJ-1413 - 828005b - Timer: Do not rotate Alert timer
+RM-231 - 50d8860 - Automatic translation import
+RM-231 - 50ca6af - Automatic translation import
+RM-232 - 6b5e526 - Fix translatability of power on alarm strings
+
+Project: CyanogenMod/android_packages_apps_Dialer
+RM-231 - b327a24 - Automatic translation import
+RM-231 - 35133b7 - Automatic translation import
+RM-231 - f2ded4f - Automatic translation import
+CD-689 - fcb8492 - Bump metrics version and fix swapped events
+RM-231 - 2c0029e - Automatic translation import
+RM-231 - 92b382a - Automatic translation import
+RM-231 - 5facdb1 - Automatic translation import
+
+Project: CyanogenMod/android_packages_apps_Eleven
+RM-231 - 63e75d1 - Automatic translation import
+
+Project: CyanogenMod/android_packages_apps_Exchange
+RM-231 - 77671c3 - Automatic translation import
+
+Project: CyanogenMod/android_packages_apps_FMRadio
+RM-231 - 4960494 - Automatic translation import
+
+Project: CyanogenMod/android_packages_apps_InCallUI
+RM-231 - ad61d71 - Automatic translation import
+RM-231 - 2ca5653 - Automatic translation import
+RM-231 - 2059819 - Automatic translation import
+RM-231 - b8fa4d9 - Automatic translation import
+
+Project: CyanogenMod/android_packages_apps_LockClock
+RM-231 - 2ae0e04 - Automatic translation import
+RM-231 - cd74a1d - Automatic translation import
+
+Project: CyanogenMod/android_packages_apps_Messaging
+RM-231 - a5adad8 - Automatic translation import
+CYNGNOS-3118 - b4ef59b - Clear avatar media cache on theme change
+RM-231 - f958ca0 - Automatic translation import
+CYNGNOS-2998 - fe85c77 - Messaging : Fix blacklist sync
+CYNGNOS-3145 - 2e6b9d1 - Stop quick messages from Russian numbers showing multiple conversations.
+RM-231 - 6988624 - Automatic translation import
+RM-231 - bbeabe7 - Automatic translation import
+RM-231 - bd5239d - Automatic translation import
+RM-231 - d557b63 - Automatic translation import
+CYNGNOS-3062 KIPPER-718 - 5a05b2f - Messaging app crashes after a few MMS
+
+Project: CyanogenMod/android_packages_apps_Nfc
+CYNGNOS-3177 - 342dca1 - Allow system_server access to NFC reader mode API.
+
+Project: CyanogenMod/android_packages_apps_PhoneCommon
+RM-231 - 6402ab5 - Automatic translation import
+
+Project: CyanogenMod/android_packages_apps_Profiles
+RM-231 - 27e4020 - Automatic translation import
+RM-231 - a4b77ee - Automatic translation import
+RM-231 - 39d0289 - Automatic translation import
+
+Project: CyanogenMod/android_packages_apps_Screencast
+RM-231 - 0773c2a - Automatic translation import
+
+Project: CyanogenMod/android_packages_apps_Settings
+CYNGNOS-3248 - 6f43e3a - Settings: remove wifi hotspot timeout when hotspot settings are removed
+RM-231 - 0c83b21 - Automatic translation import
+RM-231 - 2bae747 - Automatic translation import
+HAM-1397 - b5f2ae6 - Settings: Animate pin/pattern fragment only if available
+RM-231 - 363e141 - Automatic translation import
+RM-231 - 74a111a - Automatic translation import
+RM-231 - b12bd20 - Automatic translation import
+RM-231 - a5a78ed - Automatic translation import
+RM-231 - bf7572d - Automatic translation import
+RM-231 - 23df36c - Automatic translation import
+RM-231 - dcaa531 - Automatic translation import
+RM-231 - 9db0465 - Automatic translation import
+RM-231 - d35e208 - Automatic translation import
+CYNGNOS-3181 - 4548208 - ZenMode rules: Show days list in the correct order
+NO TICKET - cf93150 - SimSettings: Make provisioning optional even if qti-telephony is present
+CYNGNOS-3227 - 79e4fe4 - Add SIM status string for localizing voice/data strings
+RM-231 - e31e3c2 - Automatic translation import
+FEIJ-1581 - 93377ab - Settings: Always set text value in color temperature
+RM-231 - 67694d2 - Automatic translation import
+RM-231 - 2f94c01 - Automatic translation import
+RM-231 - c10cb98 - Automatic translation import
+RM-231 - 6402069 - Automatic translation import
+RM-231 - e7f6d28 - Automatic translation import
+
+Project: CyanogenMod/android_packages_apps_SetupWizard
+CYNGNOS-3252 - 7468233 - If the device has FRP, prompt the user to set up a lockscreen
+RM-231 - 014a7cc - Automatic translation import
+
+Project: CyanogenMod/android_packages_apps_Snap
+RM-231 - c520511 - Automatic translation import
+RM-231 - 1240451 - Automatic translation import
+RM-231 - 217a6e5 - Automatic translation import
+RM-231 - 6968c47 - Automatic translation import
+RM-231 - 214a8c9 - Automatic translation import
+
+Project: CyanogenMod/android_packages_apps_SoundRecorder
+RM-231 - 5b9dc8b - Automatic translation import
+RM-231 - d346b60 - Automatic translation import
+RM-231 - 5d0fead - Automatic translation import
+RM-231 - 67c5991 - Automatic translation import
+RM-231 - dae621f - Automatic translation import
+RM-231 - 3961d53 - Automatic translation import
+
+Project: CyanogenMod/android_packages_apps_ThemeChooser
+RM-231 - a9ad794 - Automatic translation import
+
+Project: CyanogenMod/android_packages_apps_Trebuchet
+RM-231 - 87f859a - Automatic translation import
+RM-231 - 314aff5 - Automatic translation import
+RM-231 - 09bebe6 - Automatic translation import
+RM-231 - a914792 - Automatic translation import
+
+Project: CyanogenMod/android_packages_apps_TvSettings
+RM-231 - 01a75c5 - Automatic translation import
+RM-231 - 22474d5 - Automatic translation import
+RM-231 - b9ac73a - Automatic translation import
+RM-231 - 9c03077 - Automatic translation import
+RM-231 - 9184918 - Automatic translation import
+
+Project: CyanogenMod/android_packages_inputmethods_LatinIME
+RM-231 - 446f40f - Automatic translation import
+FEIJ-1483 - 106268b - InputMethods: set the default value for preference
+
+Project: CyanogenMod/android_packages_providers_BookmarkProvider
+RM-231 - 803ebee - Automatic translation import
+
+Project: CyanogenMod/android_packages_providers_CalendarProvider
+RM-231 - 14756d8 - Automatic translation import
+
+Project: CyanogenMod/android_packages_providers_CallLogProvider
+RM-231 - 35aaac7 - Automatic translation import
+
+Project: CyanogenMod/android_packages_providers_ContactsProvider
+RM-231 - 94f5d64 - Automatic translation import
+RM-231 - 50b68ca - Automatic translation import
+RM-231 - 7e04667 - Automatic translation import
+
+Project: CyanogenMod/android_packages_providers_DataUsageProvider
+RM-231 - 0b5afa8 - Automatic translation import
+RM-231 - dcc6b31 - Automatic translation import
+RM-231 - 0a9b9aa - Automatic translation import
+RM-231 - b2372f1 - Automatic translation import
+
+Project: CyanogenMod/android_packages_providers_TelephonyProvider
+RM-231 - fb6340e - Automatic translation import
+RM-231 - 22ec59b - Automatic translation import
+RM-231 - ff8e499 - Automatic translation import
+RM-231 - 734f5a2 - Automatic translation import
+
+Project: CyanogenMod/android_packages_providers_WeatherProvider
+RM-231 - a02fd2c - Automatic translation import
+RM-231 - 62fd2c0 - Automatic translation import
+RM-231 - 2ac791e - Automatic translation import
+RM-231 - 0ca9ca7 - Automatic translation import
+
+Project: CyanogenMod/android_packages_screensavers_PhotoTable
+RM-231 - 411e98b - Automatic translation import
+RM-231 - a1b2881 - Automatic translation import
+RM-231 - 0523c22 - Automatic translation import
+
+Project: CyanogenMod/android_packages_services_Telecomm
+RM-231 - f590f96 - Automatic translation import
+NO TICKET - e87a9a4 - Handle IllegalArgumentException while setting default calling sub
+
+Project: CyanogenMod/android_packages_services_Telephony
+RM-231 - debbca6 - Automatic translation import
+RM-231 - 16a2c98 - Automatic translation import
+CYNGNOS-3184 FEIJ-1504 FEIJ-1505 - 7ca93db - Telephony: Fix voicemail preference issue
+RM-231 - adbc1c8 - Automatic translation import
+RM-231 - d877623 - Automatic translation import
+RM-231 - 700aed7 - Automatic translation import
+
+Project: CyanogenMod/android_packages_wallpapers_LivePicker
+RM-231 - e4d0e66 - Automatic translation import
+
+Project: CyanogenMod/android_packages_wallpapers_MagicSmoke
+RM-231 - 145b5f5 - Automatic translation import
+
+Project: CyanogenMod/android_packages_wallpapers_PhotoPhase
+RM-231 - 111e6e3 - Automatic translation import
+RM-231 - c1d4062 - Automatic translation import
+RM-231 - d94c3ce - Automatic translation import
+
+Project: CyanogenMod/android_system_bt
+CYNGNOS-3177 - 791c219 - Fix potential DoS caused by delivering signal to BT process
+FEIJ-1578 - 0e94bd5 - bta: check if sdp db buffer exists before free
+
+Project: CyanogenMod/android_system_core
+CYNGNOS-3177 - a3a96e5 - add a property for controlling perf_event_paranoid
+
+Project: CyanogenMod/android_vendor_cm
+CYNGNOS-3245 - 2f1c5f6 - Allow maintenance versions to be ignored
+CYNGNOS-3177 - f8ecef4 - version: Set version string to 13.1.1 to reflect security update
+
+Project: CyanogenMod/cm_platform_sdk
+RM-231 - 6743d4e - Automatic translation import
+RM-231 - ed02f27 - Automatic translation import
+RM-231 - c089af3 - Automatic translation import
+RM-231 - 07e72c4 - Automatic translation import
+
+Project: cyngn/GalleryNext
+FEIJ-1072 FEIJ-1145 - 705447d - GalleryNext: Take into account for ori when animated
+FEIJ-1434 - cca4689 - Avoid crash if user disables Camera while Gallery is open
+
+Project: cyngn/android_packages_apps_Camera2
+FEIJ-1431 FEIJ-1476 - b2b1900 - CameraNext: make sure input stream is not null
+FEIJ-1410 - a54ef4e - CameraNext: Improve fallback of show maps
+CYNGNOS-3212 - 2fadbcc - Fix crash on camera closing after burst shots
+
+Project: cyngn/android_packages_apps_FOTA
+OPO-745 - 1706287 - FOTA: fix pending file MD5 check
+
+Project: cyngn/android_packages_providers_CyngnBookmarkProvider
+CYNGNOS-3203 - eb8e1a4 - Fix thumbnail loading for bookmarks
+FEIJ-1566 - b787b11 - Add ability to provider default search engine value
+
+Project: cyngn/android_packages_themes_Zuk
+HAM-1326 - 78beaad - Fix Phone/network settings inconsistencies.
+HAM-1339 - 0dff560 - Improve the edit text nine-patch.
+HAM-1340 HAM-1354 - 166d035 - Fix category headers
+HAM-1353 - 9e02bde - Fix SubsettingsDialogWhenLarge style
+
+Project: platform/cts
+NO TICKET - 3762c5d - DO NOT MERGE, re-apply, Adjust testAppFailAccessPrivateData to fail on non-tagged sockets
+NO TICKET - d26da32 - DO NOT MERGE: bump cts to 6.0R9
+
+Project: platform/external/conscrypt
+NO TICKET - 5af5e93 - Use SSL_session_reused to check when a session was reused
+NO TICKET - 1638945 - Fix updateAAD when offset is not 0
+NO TICKET - 8bec47d - OpenSSLCipher: multiple calls to updateAAD were ignored
+NO TICKET - 50d0447 - OpenSSLCipher: reset AAD when necessary
+NO TICKET - 4bdc877 - Prevent duplicate certificates in TrustedCertificateIndex
+NO TICKET - 04e7d1d - Cache intermediate CA separately
+
+Project: platform/external/jhead
+NO TICKET - bae6715 - Fix possible out of bounds access
+
+
+********************************************************************************
+Revisions without JIRAs:
+Project: CyanogenMod/android_device_qcom_common
+NO TICKET - 17884ec - power: 8937: All in with mpctl v3
+NO TICKET - 6433645 - power: 8937: Split from msm8952
+NO TICKET - 09217ea - power: msm8937 also uses mpctl3
+NO TICKET - ed55a55 - perf: Wrap v3 opcodes with ifdefs
+NO TICKET - 68e169c - power: msm8996: Support boost and perf profile hints
+
+Project: CyanogenMod/android_frameworks_av
+NO TICKET - 75ca339 - frameworks/av: Fix video recording breaks
+NO TICKET - 2fa3259 - video: Use boot clock for recording start time
+
+Project: CyanogenMod/android_hardware_qcom_display
+NO TICKET - 2d5a0c4 - Don't build lights module if vendor supplies it
+
+Project: CyanogenMod/android_hardware_qcom_media
+NO TICKET - 939d86c - The libOmxSw encoders require prop headers :(
+
+Project: CyanogenMod/android_packages_apps_Settings
+NO TICKET - cf93150 - SimSettings: Make provisioning optional even if qti-telephony is present
+
+Project: CyanogenMod/android_packages_services_Telecomm
+NO TICKET - e87a9a4 - Handle IllegalArgumentException while setting default calling sub
+
+Project: platform/cts
+NO TICKET - 3762c5d - DO NOT MERGE, re-apply, Adjust testAppFailAccessPrivateData to fail on non-tagged sockets
+NO TICKET - d26da32 - DO NOT MERGE: bump cts to 6.0R9
+
+Project: platform/external/conscrypt
+NO TICKET - 5af5e93 - Use SSL_session_reused to check when a session was reused
+NO TICKET - 1638945 - Fix updateAAD when offset is not 0
+NO TICKET - 8bec47d - OpenSSLCipher: multiple calls to updateAAD were ignored
+NO TICKET - 50d0447 - OpenSSLCipher: reset AAD when necessary
+NO TICKET - 4bdc877 - Prevent duplicate certificates in TrustedCertificateIndex
+NO TICKET - 04e7d1d - Cache intermediate CA separately
+
+Project: platform/external/jhead
+NO TICKET - bae6715 - Fix possible out of bounds access
+
+
+********************************************************************************
+Repositories that were moved:
+
+********************************************************************************
+Repositories that were replaced:
+
+********************************************************************************
+Repositories that were added:
+cyngn/pinky --> packages/apps/NudgeEngine
+
+********************************************************************************
+Repositories that were removed:
+
