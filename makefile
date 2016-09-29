@@ -56,3 +56,7 @@ local-pre-zip-misc:
 	#cp -rf other/system $(ZIP_DIR)/
 	rm -rf $(ZIP_DIR)/system/vendor/bundled-app
 
+	@echo goodbye! miui prebuilt binaries!
+	rm -rf $(ZIP_DIR)/system/bin/app_process32_vendor
+	cp -rf stockrom/system/bin/app_process32 $(ZIP_DIR)/system/bin/app_process32
+

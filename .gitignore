@@ -1,4 +1,8 @@
+boot.img
 stockrom.zip
+sh.sh
+other/*
 out/*
+security/*
 temp/*
 *~
