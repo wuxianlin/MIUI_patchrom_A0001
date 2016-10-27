@@ -20,6 +20,7 @@ private-phone-apps := \
 	PrintSpooler \
 	shutdownlistener \
 	Stk \
+	telresources \
 	TimeService \
 	WAPPushManager
 
